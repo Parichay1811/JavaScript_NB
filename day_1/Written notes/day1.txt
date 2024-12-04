@@ -1,0 +1,16 @@
+Threads:
+    Threads are a small units of a processors which helps in multitasking. It is a lightweight process which is used to execute a thread of code.
+** JavaScript is a single threaded language. But java is multi threaded. **
+** In JavaScript we can use web workers to achieve multithreading. **
+
+Type safety: 
+    if we create one varible and assign it a value of string and then try to assign it a value of integer then it will throw an error. This is called type safety. JavaScript is dynamically typed language which means it is not type safe.
+
+String pull:
+    String pull is a feature of JavaScript which is used to pull the string from the end of the string. It is used to get the last character of the string. It is denoted by $.
+
+Premitive dataType:
+    Primitive data types are the basic data types which are used to store the data. They are immutable . It always contents a value.
+    
+Non-Premitive dataType:
+    Non Premitive dataType does not contain a value. It contains a reference to the value. It is mutable. It is used to store the object. It is denoted by new keyword.
