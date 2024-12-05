@@ -1,0 +1,28 @@
+object is used to write more than one line of code.
+if any key contains a hyphen , it will be written as String.
+let rick = {
+    firstName : "Parichay",
+    lastName : "Dutta Biswas",
+    age : 25,
+    isStudent : true
+    "add-ress" : "hghggs"                   add-ress has been written as string. Otherwise it will throw an error
+}
+
+Implicit type convertion
+
+let n1 = 10;
+let n2 = '20';
+console.log(n1 + n2); 
+
+This will give us 1020 automatically it will convert the string into number and then add the two numbers. This is called implicit type conversion.
+
+compare between == and ===
+let a = 10
+let b = '10'
+console.log(a === b);       //false
+console.log(a == b);        //true
+
+== checks the value of the variable 
+=== checks the value and data type of the variable.
+
+=== checks the reference of the variable.
