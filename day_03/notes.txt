@@ -1,0 +1,54 @@
+conditions and loops
+
+js can run in two places in the browser and in a node.js environment.
+
+Engine:
+    Chrome: V8
+    mozila: Spider Monkey
+    safari: JavaScriptCore
+    Internet Explorer: Chakra
+
+
+const answer = prompt('how are you?')
+console.log(answer);
+
+This will run fine in the browser but in local machine will throw an error because prompt is a browser function and will not work in the local machine.
+The error:
+
+const answer = prompt('how are you?')
+               ^
+
+ReferenceError: prompt is not defined
+    at Object.<anonymous> (C:\Users\Parichay\Desktop\js2\day_03\code\script.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.17.0
+
+Switch case works on a strictly equal basis. It does not work with loose equality. 
+
+Loops and the conditionals works same as Java.
+
+Functions:
+    it is a piece of code which can be use multiple times in a code. If we do not return anything then js compiler will return undefined by default
+
+
+function sum(a, b,...c) {  ///... is called rest parameter it takes remaining variables and return them into an array
+
+
+
+    // return a + b;
+    console.log(a,b,c);
+    let sum = a + b
+    for (let i = 0; i < c.length; i++){
+        sum += c[i]
+    }
+    return sum
+}
+console.log(sum);
+
+restParameter should be the last parameter
