@@ -1,0 +1,15 @@
+There are three types of structural scopes
+    1. global scope
+        whatever is there outside of the braces {}
+    2. Block scope
+        whatever is there inside of any braces {}
+    3. Functional scope
+       whatever is there inside of a function definition{}
+logical scope:
+    lexical scope: it defines the way how compiler is going to access the variable.
+hoisting:
+    variable which is decleared with var is gonna be hoisted to the top of the scope.
+
+//2 ways to define a function
+
+    normal and arrow
