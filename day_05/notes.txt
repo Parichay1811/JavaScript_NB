@@ -1,0 +1,9 @@
+Slice():
+    if we want to retrive a specific portion of my array we use slice
+Splice():
+    if we want to insert any data in a specific index of an array we use Splice().
+
+Callbacks:
+    function can be stored inside of a variable.
+    inside js functions can be passed and returned from another function
+    due to this functions are known as firstclass function.
