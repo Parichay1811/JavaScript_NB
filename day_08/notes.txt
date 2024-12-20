@@ -1,0 +1,52 @@
+Functions
+
+Types of functions:
+    Normal functions
+    Lambda functions/ arrow functions
+    Higher-order functions
+    Anonymous functions
+Excecution context:
+    
+    we have 2 types of context
+    1. global context
+    2. function context
+
+
+HOF: HOF Stands for Higher Order Function. It is a function that takes another function as an argument or returns a function as a result.
+
+Example:
+    function doOperation(a, b, operation) {    //doOperation is a HOF. Which has taken a function "operation" as an argument.
+        return operation(a, b);  //and returns that as a the result
+    }
+    function operation(a,b) {
+        return a + b;
+    }
+    console.log(doOperation(1,2, operation));
+
+execution context:
+
+    context is like a box inside which your code is going to be executed.
+    there are two types of context
+    1.Global context
+
+        let a = 10;
+        console.log(a);
+        let b = 20
+        console.log(b);
+
+        the things above this line comes under global context. Because they are not inside any function. 
+        
+        function sum() {        this is a function. So it comes under execution context of that function.
+            console.log(a + b);
+        }
+        console.log(sum());
+Loops:
+
+    apart from for, while and do while there are few more loops in javaScript
+    1. for of loop
+        for...of loop: The for...of loop is used to iterate over elements of an iterable object (like arrays, strings, etc.). It's a more modern alternative to the traditional for loop.
+    2. for in loop
+        
+    3. forEach loop
+        forEach(): This method is used to iterate over the elements of an array and apply a provided function to each element. It does not return a new array, but it can be useful for performing operations on each item in an array.
+   

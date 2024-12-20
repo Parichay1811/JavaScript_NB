@@ -1,0 +1,20 @@
+* there is a method called sort().
+sort is use to apply some order to the list. It can be ascending or descending order.
+example: in amazon we can see that we have an option for shopping based on the price high to low or low to high or based on the customer review . This is an example of sorting.
+
+
+Map, Reduce and Filter:
+
+map, reduce and filter are also Higher Order Functions. They are used to perform some operation on the list. 
+
+Map:
+   Map function is used to transform an array,
+   transformation means changing the data type of the array elements or changing the array, elements themselves.
+   example : [1,2,3,4,5] -> [1,4,9,16,25] or [1,2,3,4,5] -> ["1","2","3","4","5"]
+   It takes a callback function as an argument and returns a new array with the results of the callback.
+
+Filter:
+   Filter function is used to filter the array, it means to select only those elements from the array which satisfy the given condition. example: if we have a list of students and we want to select only those students who are above 18 years old. we can used filter function.
+
+Reduce:
+   Reduce function is used to reduce the array to a single value. It takes a callback function as an argument and returns a single value. example: if we have a list of numbers and we want to find the sum of all the numbers in the list. we can use reduce function.
