@@ -1,0 +1,37 @@
+Object:
+    In JavaScript, an object is an unordered collection of key-value pairs. Each key-value pair is called a property.
+    Example:
+        let obj = {
+            name : "Sam",  // name is key here and sam is value.
+            age : 22,     //  age is key here and 22 is value.
+            Live : "Bangalore" // Live is key and Bangalore is value.
+        }
+    
+    Use of object: To write the product details in eCommerce website. For example, product name, price, description etc.
+
+    const product = {
+        name: 'realme C51',
+        price: 8999,
+        description: 'A high-quality smartphone with advanced features.',
+        reviews: [
+            {
+            user: 'Priyanshu',
+            rating: 4,
+            comment: "I'm impressed with the performance of the realme C51."
+            },
+            {
+            user: 'Akhil',
+            rating: 5,
+            comment: "The realme C51 exceeded my expectations."
+            }
+        ],
+        availability: true
+}
+
+
+JSON:
+    JSON stands for JavaScript Object Notation.
+    JSON is a lightweight format for storing and transporting data. JSON is easy to read and write.in backend.
+    JSON is often used when data is sent from a server to a web page.
+    JSON is "self-describing" and easy to understand.
+    JSON data is represented as a collection of key-value pairs, similar to how objects are represented in JavaScript. Here's a basic example of JSON.

@@ -32,7 +32,7 @@
 // }
 
 
-
+/*
 const nums = [1, 2, 3, 4, 5, 6, 7]
 for(num of nums){           //for of loop works only for the Arrays
     console.log(nums);
@@ -44,6 +44,35 @@ const person = {
     age: 22
 }
 for(field in person){                           //for in loops works with the objects and also with the array
-    console.log(field, ":", person[field]);
-    
+    console.log(field, ":", person[field]);  
+}
+    */
+
+const product = {
+    name: "Apple",
+    price: 100,
+    color: "black",
+}
+//printing object properties
+console.log(product["name"]);       //instead of this we could use dot . operator as well but, we can use this when we don't know the key name. This is the most powerful way to access the object properties in JavaScript.
+console.log(product["price"]);
+console.log(product["color"]);
+
+//inserting element in the object.
+
+product.version = "1.0";
+console.log(product);
+
+//Updatation 
+
+product.price = 80000;
+console.log(product);
+
+//- **Delete in an Object**
+delete product.color;
+console.log(product);
+
+//Iterating over Object
+for(let key in product){
+    console.log(key, ":", product[key]);
 }
