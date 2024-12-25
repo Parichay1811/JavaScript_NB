@@ -1,0 +1,10 @@
+We have a lot of events in javaScript
+example :
+    1. click event
+    2. mouseover event
+    3. mouseout event
+    4. keydown event
+    5. keyup event      
+    6. change event 
+
+    and many more....!
