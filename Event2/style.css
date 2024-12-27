@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 200, 142);
+    height: 100vh;
+
+}
+#box{
+    width: 20%;
+    height: 20%;
+    background-color: red;margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    width: 30%;
+    height: 30%;
+    
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+a:hover{
+    text-decoration: underline;
+    transform: perspective();
+}
