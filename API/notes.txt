@@ -1,0 +1,14 @@
+API: 
+   API stands for Application Programming Interface. It is a set of defined rules that enables different applications to communicate with each other.
+   as an example zomato is using google map api to show the location of the restaurant on the map.
+Api fetch: Using api fetch we can fetch the data from the server and display it on the webpage.
+Api call: An API call is a request made to an API to perform a specific action or retrieve data .
+Api post: Api post is used to send data to the server and save it in the database.
+Api get: Api get is used to fetch data from the server and display it on the webpage.
+Api put: Api put is used to update the data in the database.
+Api delete: Api delete is used to delete the data from the database.
+
+these all are few majorly used keywords in the field of web development.
+
+TO convert js to JSON we can use stringify().
+JSON.stringify()

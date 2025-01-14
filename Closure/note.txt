@@ -1,0 +1,2 @@
+Closure:
+    with the help of Closure child function can access the parent class attributes and methods after the parent class object is destroyed.

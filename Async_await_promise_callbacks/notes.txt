@@ -1,0 +1,5 @@
+Callback hell:
+    Callback hell is calling a function from within another function, which in turn calls another function, and so on. This can lead to a situation where it is difficult to understand the flow of the program and debug the code. It is generally considered a bad practice in programming.
+    To avoid this we can use "promises" or "async/await" to write asynchronous code in a more readable way.
+promises: 
+    promise is a result of an operation that has not completed yet, but is expected to resolve to a value at some point in the future. It can have three status 1.Pending 2.Resolved 3.Rejected.

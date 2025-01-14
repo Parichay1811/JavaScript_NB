@@ -1,0 +1,13 @@
+Synchronus:
+    One task at a time , one thread at a time.  The tasks are executed in the order they are submitted.
+Asynchronus: 
+    parallel execution of multiple tasks, each task is executed in a separate thread.  The tasks are executed in the order they are submitted, but the execution of each task is independent of the others.
+
+    in Asynchronus programming to do eaxh task we have threads. we have two types of threads. Main thread and workerthread.
+    Main thread is the thread which is responsible for creating the worker threads and submitting the tasks to them . 
+
+    Main threads will be returning the result of the task to the user.  The main thread will be waiting for the result of the task to be returned by the worker thread.  The main thread will be responsible for handling the result of the task.  The main thread will be responsible for handling any exceptions that may occur during the execution of the task.
+
+    Main threads are like the manager in a software company and working threads are like the developers.
+    
+    Main threads will do the Synchronus tasks and the worker threads will do the Asynchronus tasks.  The main thread will be responsible for handling the result of the task and the worker thread will be responsible for executing the task.
