@@ -1,0 +1,20 @@
+Debouncing:
+    Whenever an user type something in youtube or amazon it send the request to the api to fetch the data from the bckend server. But a search bar works as substring process. suppose user is typing 'javaScript' so for each letter the it will send the request to the server which is unnessesery and also puts pressure on the APIs.
+
+    So, for avoiding that we have a way called Debouncing. using Debouncing we will be sending request to the server when the user takes a small gap while typing...
+    we will call the server at the gap.
+    
+    Debouncing is a method that delays the execution of a function until a certain time has passed since the last time the function was called. It prevents a function from being called multiple times in a short period of time.
+
+Throttling:
+    JavaScript throttling limits the frequency at which a function is executed.
+
+How to Implement Throttling in JavaScript:
+
+    Create a Throttle Function: Define a function that takes a callback and delay to control execution frequency over time.
+
+    Track Last Execution Time: Store the timestamp of the last function execution to calculate if the delay has passed.
+    
+    Check Time Interval: On each trigger, compare the current time with the last execution time; only execute if sufficient time passed.
+    
+    Return Throttled Function: Return a new function that runs the original callback only when the time interval condition is met.
